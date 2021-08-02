@@ -2,7 +2,7 @@ use pubs
 
 --Q1 Select the author firtname and last name
 
-Select au_fname 'Firstname',au_lname as Lastname from authors
+Select concat(au_fname,au_lname) 'Name'as Lastname from authors
 
 --Q2 Sort the titles by the title name in descending order and print all the details
 
